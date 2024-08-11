@@ -141,7 +141,7 @@ html {
   --lightMode--: hsl(0, 0%, 100%);
 }
 .header {
-  background-image: url(./images/clipboard-landing-page-master/images/bg-header-desktop.png);
+  background-image: url(./images/bg-header-desktop.png);
   width: 100%;
   min-height: 40vh;
   background-repeat: no-repeat;
