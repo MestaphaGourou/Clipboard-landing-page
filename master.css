@@ -190,11 +190,11 @@ html {
   box-shadow: 1px 1px var(--button2shadow--);
   transition: all 0.7ms ease;
 }
-.snippet{
+.snippet {
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
- }
+}
 
 .snippet h1 {
   font-size: 2.5rem;
@@ -206,12 +206,11 @@ html {
   font-size: 1.1rem;
   color: var(--p--text--);
   line-height: 1.5;
-} 
+}
 
 .article {
   display: flex;
   gap: 2.5rem;
-  
 }
 #hmd {
   position: relative;
@@ -231,7 +230,6 @@ html {
   font-weight: 500;
   color: var(--h1-text--);
   padding-bottom: 1rem;
-  
 }
 .article .paragrapgh p {
   font-size: 1.1rem;
@@ -380,7 +378,7 @@ html {
 }
 
 @media (max-width: 640px) {
-    html,
+  html,
   body {
     overflow-x: hidden;
   }
@@ -402,9 +400,9 @@ html {
   .Btn {
     margin: 0.5rem 0;
     font-size: 1rem;
-    padding: 1rem ;
+    padding: 1rem;
   }
-  .snippet{
+  .snippet {
     padding: 1rem 0 4rem 0;
   }
   .snippet h1 {
@@ -433,13 +431,13 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .article .paragrapgh{
-    padding-bottom: 2.5rem ;
+  .article .paragrapgh {
+    padding-bottom: 2.5rem;
   }
   .paragrapgh {
     text-align: center;
   }
-  
+
   .item .paragrapgh h1 {
     font-size: 1.4rem;
   }
@@ -453,8 +451,8 @@ html {
     font-size: 1rem;
     padding: 0 0.5rem;
   }
-  .clip-board .access{
-    padding-top :1rem ;
+  .clip-board .access {
+    padding-top: 1rem;
   }
   .clip-board {
     padding: 3rem 0.5rem;
@@ -485,7 +483,6 @@ html {
     padding: 0 1.5rem;
     width: 100%;
   }
-  
 
   .items .icon {
     padding: 1rem;
@@ -531,54 +528,54 @@ html {
     margin: 1rem;
   }
 
-  .main-Btns{
+  .main-Btns {
     display: flex;
     flex-direction: column;
     padding: 1rem 4rem;
   }
 }
-@media (min-width :640px) {
-  html,body{
+@media (min-width: 640px) {
+  html,
+  body {
     overflow-x: hidden;
   }
   .main-page {
-    padding: 1rem 1rem 3rem 1rem ;
+    padding: 1rem 1rem 3rem 1rem;
   }
-  .main-page h1{
+  .main-page h1 {
     font-size: 2rem;
-    padding: 2rem 0 ;
+    padding: 2rem 0;
   }
   .main-page p {
     padding: 1rem 0 2rem 0;
   }
-  .Btn{
+  .Btn {
     font-size: 1rem;
-    
   }
-  .snippet{
+  .snippet {
     width: 100%;
     padding: 0 2rem 5rem 0;
   }
-  .container{
+  .container {
     padding: 1rem;
   }
-  .workflow p{
+  .workflow p {
     padding-bottom: 4rem;
     margin: 0;
   }
-  .items{
+  .items {
     height: fit-content;
   }
-  .images{
+  .images {
     flex-wrap: wrap;
     gap: 1.5rem;
-    padding: 0; 
+    padding: 0;
   }
   .foot h3 {
     margin: 0;
     padding-bottom: 1.5rem;
   }
-  .social-icons{
+  .social-icons {
     display: flex;
   }
 }
