@@ -561,6 +561,7 @@ html {
   }
   .container{
     padding: 1rem;
+    gap : 1.5rem;
   }
   .workflow p{
     padding-bottom: 4rem;
